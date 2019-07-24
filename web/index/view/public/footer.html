@@ -1,0 +1,34 @@
+<div class="cf"></div>
+<div id="footer">
+
+    <div class="main-footer common-width">
+        <div class="content-wrap footer-left">
+        </div>
+        <div class="content-wrap footer-right">
+            <div class="content-area">
+                <div class="media-img" style="background:url(__ImagePath__{$info.wx_url}) no-repeat center;background-size: 160px;{if empty($info.logo_url)}margin-right:100px;{/if}"></div>
+                {if $info.logo_url}
+                <div class="media-img" style="background:url(__ImagePath__{$info.logo_url}) no-repeat center;background-size: 160px;{if empty($info.wb_url)}margin-right:100px;{/if}"></div>
+                {else}
+                <div class="default-area">
+                    <div class="default-img weixin-img"></div>
+                    <div class="default-name">官方微信</div>
+                </div>
+                {/if}
+                {if $info.wb_url}
+                <div class="media-img" style="background:url(__ImagePath__{$info.wb_url}) no-repeat center;background-size: 160px;"></div>
+                {else}
+                <div class="default-area">
+                    <div class="default-img weibo-img"></div>
+                    <div class="default-name">官方微博</div>
+                </div>
+                {/if}
+
+            </div>
+        </div>
+        <div class="cf"></div>
+    </div>
+    <div class="footer-text">
+        {$info.case_info} | {$info.power}{if $info.address} | {$info.address}{/if}
+    </div>
+</div>
