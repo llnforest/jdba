@@ -4,8 +4,8 @@
 
 }
 .nav-content{
-    border-bottom:2px solid #044fa0;
-    border-top:2px solid #044fa0;
+    border-bottom:2px solid #d9271b;
+    border-top:2px solid #d9271b;
     line-height:30px;
     margin-bottom:15px;
     font-size:14px;
@@ -38,8 +38,8 @@
     width: 140px;
     text-align: center;
     line-height: 50px;
-    border: 1px solid #044fa0;
-    background: #044fa0;
+    border: 1px solid #d9271b;
+    background: #d9271b;
     color: #fff;
     margin:auto;
     cursor:pointer;

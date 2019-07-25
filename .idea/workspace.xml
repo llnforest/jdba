@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5de1e6ad-383f-4d04-8af1-7e2fad8471b5" name="Default" comment="" />
+    <list default="true" id="5de1e6ad-383f-4d04-8af1-7e2fad8471b5" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/cases/20190611/2c1f042ed897d43afd1f016a3500dee7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/cases/20190611/38e7922657797bcabc48b106b99bdc66.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index/view/public/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index/view/public/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/css/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/css/detail.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/css/detail.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/css/list.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/css/list.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/css/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/css/nav.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/css/sendmessage.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/css/sendmessage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/css/swiper.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/css/swiper.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,50 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/index/view/index/index.html">
+      <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="190" column="59" selection-start-line="190" selection-start-column="59" selection-end-line="190" selection-end-column="59" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Liangdai.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/base/controller/Liangdai.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2664">
-              <caret line="156" column="49" selection-start-line="156" selection-start-column="49" selection-end-line="156" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/base/view/liangdai/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1332">
-              <caret line="74" column="94" selection-start-line="74" selection-start-column="94" selection-end-line="74" selection-end-column="94" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form_yangguang.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/base/view/form/form_yangguang.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1116">
-              <caret line="62" selection-start-line="62" selection-end-line="65" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="head.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index/view/public/head.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+            <state relative-caret-position="468">
+              <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -65,40 +38,81 @@
       <file leaf-file-name="common.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/static/css/common.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1944">
-              <caret line="108" column="19" selection-start-line="108" selection-start-column="12" selection-end-line="108" selection-end-column="19" />
+            <state relative-caret-position="673">
+              <caret line="150" column="28" selection-start-line="150" selection-start-column="28" selection-end-line="150" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form_liangdai.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/base/view/form/form_liangdai.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="contentAdd.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/base/view/liangdai/contentAdd.php">
+      <file leaf-file-name="detail.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/static/css/detail.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+            <state relative-caret-position="859">
+              <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index/controller/Index.php">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/static/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="29" column="120" selection-start-line="29" selection-start-column="120" selection-end-line="29" selection-end-column="120" />
+            <state relative-caret-position="922">
+              <caret line="236" column="22" selection-start-line="236" selection-start-column="22" selection-end-line="236" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contentEdit.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/base/view/liangdai/contentEdit.php">
+      <file leaf-file-name="list.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/static/css/list.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+            <state relative-caret-position="787">
+              <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nav.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/static/css/nav.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="5" column="275" selection-start-line="5" selection-start-column="275" selection-end-line="5" selection-end-column="275" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sendmessage.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/static/css/sendmessage.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="679">
+              <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="swiper.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/static/css/swiper.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret column="5447" selection-start-column="5447" selection-end-column="5447" />
+              <folding>
+                <element signature="e#2684#2942#2" expanded="true" />
+                <element signature="e#3083#3341#2" expanded="true" />
+                <element signature="e#3461#3719#2" expanded="true" />
+                <element signature="e#3799#4057#2" expanded="true" />
+                <element signature="e#4198#4456#2" expanded="true" />
+                <element signature="e#4576#4834#2" expanded="true" />
+                <element signature="e#14348#15795#2" expanded="true" />
+                <element signature="e#15950#17394#2" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index/view/public/footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -116,9 +130,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>分类标识</find>
-      <find>标识</find>
-      <find>信息</find>
       <find>Gonggao</find>
       <find>content/</find>
       <find>gonggao</find>
@@ -146,6 +157,9 @@
       <find>footer</find>
       <find>version</find>
       <find>yangguang</find>
+      <find>#007af</find>
+      <find>#044fa0</find>
+      <find>.swiper-pagination-bullet</find>
     </findStrings>
     <replaceStrings>
       <replace>45</replace>
@@ -174,6 +188,7 @@
       <replace>zhibu</replace>
       <replace>huodong</replace>
       <replace>liangdai</replace>
+      <replace>#d9271b</replace>
     </replaceStrings>
     <dirStrings>
       <dir>E:\web\jdgh\admin</dir>
@@ -188,8 +203,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/admin/base/view/xiazai/contentEdit.php" />
-        <option value="$PROJECT_DIR$/admin/base/view/xiazai/contentAdd.php" />
         <option value="$PROJECT_DIR$/admin/index/controller/Upload.php" />
         <option value="$PROJECT_DIR$/admin/base/view/form/form_xiazai.php" />
         <option value="$PROJECT_DIR$/admin/static/admin/js/common.js" />
@@ -199,17 +212,12 @@
         <option value="$PROJECT_DIR$/web/index/view/index/detail.html" />
         <option value="$PROJECT_DIR$/web/index/view/index/list.html" />
         <option value="$PROJECT_DIR$/web/index/view/index/message.html" />
-        <option value="$PROJECT_DIR$/web/static/css/sendmessage.css" />
         <option value="$PROJECT_DIR$/web/static/layui/css/modules/layer/default/layer.css" />
         <option value="$PROJECT_DIR$/web/index/view/index/sendmessage.html" />
-        <option value="$PROJECT_DIR$/web/static/css/detail.css" />
-        <option value="$PROJECT_DIR$/web/static/css/list.css" />
         <option value="$PROJECT_DIR$/web/config.php" />
         <option value="$PROJECT_DIR$/admin/config.php" />
         <option value="$PROJECT_DIR$/admin/static/admin/ueditor/ueditor.config.js" />
         <option value="$PROJECT_DIR$/admin/static/admin/ueditor/php/config.json" />
-        <option value="$PROJECT_DIR$/admin/database.php" />
-        <option value="$PROJECT_DIR$/web/database.php" />
         <option value="$PROJECT_DIR$/admin/base/controller/Huodong.php" />
         <option value="$PROJECT_DIR$/admin/base/controller/Yangguang.php" />
         <option value="$PROJECT_DIR$/admin/base/view/yangguang/index.php" />
@@ -228,8 +236,6 @@
         <option value="$PROJECT_DIR$/admin/base/view/form/form_yaowen.php" />
         <option value="$PROJECT_DIR$/web/index/controller/Index.php" />
         <option value="$PROJECT_DIR$/web/index/controller/BaseController.php" />
-        <option value="$PROJECT_DIR$/web/static/css/index.css" />
-        <option value="$PROJECT_DIR$/web/index/view/public/footer.html" />
         <option value="$PROJECT_DIR$/admin/base/view/form/form_info.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/admin/base/controller/Liangdai.php" />
@@ -237,8 +243,17 @@
         <option value="$PROJECT_DIR$/admin/base/view/liangdai/contentEdit.php" />
         <option value="$PROJECT_DIR$/admin/base/view/liangdai/index.php" />
         <option value="$PROJECT_DIR$/web/index/view/public/head.html" />
-        <option value="$PROJECT_DIR$/web/static/css/common.css" />
         <option value="$PROJECT_DIR$/web/index/view/index/index.html" />
+        <option value="$PROJECT_DIR$/web/database.php" />
+        <option value="$PROJECT_DIR$/admin/database.php" />
+        <option value="$PROJECT_DIR$/web/static/css/detail.css" />
+        <option value="$PROJECT_DIR$/web/static/css/index.css" />
+        <option value="$PROJECT_DIR$/web/static/css/list.css" />
+        <option value="$PROJECT_DIR$/web/static/css/sendmessage.css" />
+        <option value="$PROJECT_DIR$/web/index/view/public/footer.html" />
+        <option value="$PROJECT_DIR$/web/static/css/common.css" />
+        <option value="$PROJECT_DIR$/web/static/css/swiper.css" />
+        <option value="$PROJECT_DIR$/web/static/css/nav.css" />
       </list>
     </option>
   </component>
@@ -272,8 +287,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="45" />
-    <option name="y" value="94" />
+    <option name="x" value="433" />
+    <option name="y" value="108" />
     <option name="width" value="1938" />
     <option name="height" value="797" />
   </component>
@@ -283,126 +298,81 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="jdgh" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdgh" type="462c0819:PsiDirectoryNode" />
+              <item name="jdba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jdba" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="jdgh" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdgh" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="jdba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jdba" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="jdgh" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdgh" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="jdba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jdba" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="jdgh" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdgh" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="jdba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jdba" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="cases" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="jdgh" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdgh" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdgh" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdgh" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="form" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdgh" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdgh" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="liangdai" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdgh" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdgh" type="462c0819:PsiDirectoryNode" />
+              <item name="jdba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jdba" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="jdgh" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdgh" type="462c0819:PsiDirectoryNode" />
+              <item name="jdba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jdba" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="index" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="jdgh" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdgh" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdgh" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdgh" type="462c0819:PsiDirectoryNode" />
+              <item name="jdba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jdba" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="index" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="jdgh" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdgh" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdgh" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdgh" type="462c0819:PsiDirectoryNode" />
+              <item name="jdba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jdba" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="index" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="jdgh" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdgh" type="462c0819:PsiDirectoryNode" />
+              <item name="jdba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jdba" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="jdgh" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdgh" type="462c0819:PsiDirectoryNode" />
+              <item name="jdba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jdba" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdgh" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdgh" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../php/xadmin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../shijia" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -458,11 +428,12 @@
       <workItem from="1561518608234" duration="24000" />
       <workItem from="1562667742712" duration="2256000" />
       <workItem from="1562720788090" duration="177000" />
+      <workItem from="1564020713796" duration="5379000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112757000" />
+    <option name="totallyTimeSpent" value="118136000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -474,12 +445,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -496,59 +467,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/index/view/publics/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="60" column="9" selection-start-line="32" selection-end-line="60" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/layui/css/modules/layer/default/layer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="1" column="8779" selection-start-line="1" selection-start-column="8779" selection-end-line="1" selection-end-column="8779" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index/view/index/sendmessage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="54" column="70" selection-start-line="54" selection-start-column="70" selection-end-line="54" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index/view/index/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="17" column="633" selection-start-line="17" selection-start-column="633" selection-end-line="17" selection-end-column="644" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index/view/public/nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="47" selection-start-column="47" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/index/view/index/message.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/css/detail.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/css/list.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -578,20 +500,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/.htaccess">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/base/controller/Huodong.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -697,24 +605,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="202" column="17" selection-start-line="202" selection-start-column="17" selection-end-line="202" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/index/controller/BaseController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="711">
           <caret line="56" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index/view/public/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="150" selection-start-line="10" selection-start-column="150" selection-end-line="10" selection-end-column="150" />
         </state>
       </provider>
     </entry>
@@ -811,20 +705,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/css/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1944">
-          <caret line="108" column="19" selection-start-line="108" selection-start-column="12" selection-end-line="108" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/index/view/index/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="190" column="59" selection-start-line="190" selection-start-column="59" selection-end-line="190" selection-end-column="59" />
+        <state relative-caret-position="748">
+          <caret line="175" column="6" selection-start-line="175" selection-start-column="6" selection-end-line="175" selection-end-column="6" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#1;n#body#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/css/detail.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="859">
+          <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="922">
+          <caret line="236" column="22" selection-start-line="236" selection-start-column="22" selection-end-line="236" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/css/list.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="787">
+          <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/cases/20190611/2c1f042ed897d43afd1f016a3500dee7.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/cases/20190611/38e7922657797bcabc48b106b99bdc66.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index/view/public/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="673">
+          <caret line="150" column="28" selection-start-line="150" selection-start-column="28" selection-end-line="150" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/css/sendmessage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/css/swiper.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret column="5447" selection-start-column="5447" selection-end-column="5447" />
+          <folding>
+            <element signature="e#2684#2942#2" expanded="true" />
+            <element signature="e#3083#3341#2" expanded="true" />
+            <element signature="e#3461#3719#2" expanded="true" />
+            <element signature="e#3799#4057#2" expanded="true" />
+            <element signature="e#4198#4456#2" expanded="true" />
+            <element signature="e#4576#4834#2" expanded="true" />
+            <element signature="e#14348#15795#2" expanded="true" />
+            <element signature="e#15950#17394#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/css/nav.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="5" column="275" selection-start-line="5" selection-start-column="275" selection-end-line="5" selection-end-column="275" />
         </state>
       </provider>
     </entry>

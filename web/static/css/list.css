@@ -15,8 +15,8 @@
     margin-bottom:25px;
 }
 .nav-content{
-    border-bottom:2px solid #044fa0;
-    border-top:2px solid #044fa0;
+    border-bottom:2px solid #d9271b;
+    border-top:2px solid #d9271b;
     line-height:30px;
     margin-bottom:15px;
     font-size:14px;
@@ -36,7 +36,7 @@
 }
 .ed-re{
     margin-left:10px;
-    color:#044fa0;
+    color:#d9271b;
     font-size: 12px;
 }
 .send-message{
@@ -44,8 +44,8 @@
     width: 100px;
     text-align: center;
     line-height: 31px;
-    border: 1px solid #044fa0;
-    background: #044fa0;
+    border: 1px solid #d9271b;
+    background: #d9271b;
     font-size: 12px;
     color: #fff;
     float: right;
