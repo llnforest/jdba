@@ -84,6 +84,22 @@ a,span,p{
     border-bottom:1px solid #ccc;
     margin-bottom: 12px;
 }
+.content-head.no-bottom{
+    border:none;
+}
+.head-title-last{
+    display:inline-block;
+    height:30px;
+    line-height:30px;
+    padding:0 5px;
+    font-weight: 700;
+    position:relative;
+    top:1px;
+}
+.head-title-last.active{
+    border-bottom:2px solid #d9271b;
+    color:#d9271b;
+}
 .head-title{
     display:inline-block;
     height:30px;
@@ -99,14 +115,13 @@ a,span,p{
     display:inline-block;
     height:30px;
     line-height:30px;
-    padding:0 5px;
-    color:#d9271b;
     font-weight: 700;
     position:relative;
     top:1px;
-    width:90px;
+    width: 103.3px;
     text-align:center;
     cursor: pointer;
+    background:#f8f8f8;
 }
 .head-title-item.active{
     color:#fff;

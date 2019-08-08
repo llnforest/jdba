@@ -36,6 +36,7 @@
             <thead>
             <tr>
                 <th width="15"><input type="checkbox"  lay-skin="primary" lay-filter="allChoose">
+                <th width="80">图片</th>
                 <th width="80">信息标题</th>
                 <th width="80">分类</th>
                 <th width="80">排序<span order="sort" class="order-sort"> </span></th>
@@ -48,6 +49,7 @@
             {foreach $list as $v}
                 <tr>
                     <td><input type="checkbox" name="batch_id" data-id="{$v.id}" lay-skin="primary" lay-filter="itemChoose"></td>
+                    <td ><img class="mini-image" src="{$v.img?'__ImagePath__'.$v.img:''}" style="width:80px"></td>
                     <td>{$v.title}</td>
                     <td>{$v.name}</td>
                     <td>

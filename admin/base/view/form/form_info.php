@@ -23,37 +23,6 @@
             </tr>
 
             <tr>
-                <th>微信二维码</th>
-                <td>
-                    <button name="image" type="button" class="layui-btn upload" lay-data="{'url': '{:url('index/upload/image',['type'=>'info'])}'}">
-                        <i class="layui-icon">&#xe67c;</i>上传微信二维码
-                        <input class="image" type="hidden" name="wx_url" value="{$info.wx_url??''}">
-                        <img class="mini-image {$info.wx_url?'':'hidden'}" data-path="__ImagePath__" src="{$info.wx_url?'__ImagePath__'.$info.wx_url:''}">
-                    </button>
-                </td>
-            </tr>
-            <tr>
-                <th>官方微信</th>
-                <td>
-                    <button name="image" type="button" class="layui-btn upload" lay-data="{'url': '{:url('index/upload/image',['type'=>'info'])}'}">
-                        <i class="layui-icon">&#xe67c;</i>上传官方微信
-                        <input class="image" type="hidden" name="logo_url" value="{$info.logo_url??''}">
-                        <img class="mini-image {$info.logo_url?'':'hidden'}" data-path="__ImagePath__" src="{$info.logo_url?'__ImagePath__'.$info.logo_url:''}">
-                    </button>
-                </td>
-            </tr>
-            <tr>
-                <th>官方微博</th>
-                <td>
-                    <button name="image" type="button" class="layui-btn upload" lay-data="{'url': '{:url('index/upload/image',['type'=>'info'])}'}">
-                        <i class="layui-icon">&#xe67c;</i>上传官方微博
-                        <input class="image" type="hidden" name="wb_url" value="{$info.wb_url??''}">
-                        <img class="mini-image {$info.wb_url?'':'hidden'}" data-path="__ImagePath__" src="{$info.wb_url?'__ImagePath__'.$info.wb_url:''}">
-                    </button>
-                </td>
-            </tr>
-
-            <tr>
                 <th>版权归属</th>
                 <td>
                     <input class="form-control text" type="text" name="power" value="{$info.power??''}" placeholder="版权归属">

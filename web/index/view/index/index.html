@@ -75,11 +75,11 @@ js='<script type="text/javascript" src="__StaticStyle__/js/jquery-3.2.1.min.js">
     <!--thr-->
     <div class="content-wrap content-item fir">
         <div class="content-head">
-            <span class="head-title">{$cateList.Zhengce.title}</span>
-            <a class="head-more" href="{:url('index/articlelist',['mark'=>$cateList.Zhengce.mark,'type'=>'list'])}">更多+</a>
+            <span class="head-title">{$cateList.Jiceng.title}</span>
+            <a class="head-more" href="{:url('index/articlelist',['mark'=>$cateList.Jiceng.mark,'type'=>'list'])}">更多+</a>
         </div>
         <ul class="content-area">
-            {foreach $cateList.Zhengce.sublist as $v}
+            {foreach $cateList.Jiceng.sublist as $v}
             <li class="content-list" onclick="javascript:window.location.href='{:url("index/articledetail",['id'=>$v.id,'mark'=>$v.mark,'type'=>'list'])}';"> · {$v.title}</li>
             {/foreach}
         </ul>
@@ -88,11 +88,11 @@ js='<script type="text/javascript" src="__StaticStyle__/js/jquery-3.2.1.min.js">
     <!--four-->
     <div class="content-wrap content-item fir">
         <div class="content-head">
-            <span class="head-title">{$cateList.Minzhu.title}</span>
-            <a class="head-more" href="{:url('index/articlelist',['mark'=>$cateList.Minzhu.mark,'type'=>'list'])}">更多+</a>
+            <span class="head-title">{$cateList.Xinxi.title}</span>
+            <a class="head-more" href="{:url('index/articlelist',['mark'=>$cateList.Xinxi.mark,'type'=>'list'])}">更多+</a>
         </div>
         <ul class="content-area">
-            {foreach $cateList.Minzhu.sublist as $v}
+            {foreach $cateList.Xinxi.sublist as $v}
             <li class="content-list" onclick="javascript:window.location.href='{:url("index/articledetail",['id'=>$v.id,'mark'=>$v.mark,'type'=>'list'])}';"> · {$v.title}</li>
             {/foreach}
         </ul>
@@ -101,18 +101,85 @@ js='<script type="text/javascript" src="__StaticStyle__/js/jquery-3.2.1.min.js">
     <!--five-->
     <div class="content-wrap content-item fir no-padding">
         <div class="content-head">
-            <span class="head-title">{$cateList.Yangguang.title}</span>
-            <a class="head-more" href="{:url('index/articlelist',['mark'=>$cateList.Yangguang.mark,'type'=>'list'])}">更多+</a>
+            <span class="head-title">{$cateList.Minzhu.title}</span>
+            <a class="head-more" href="{:url('index/articlelist',['mark'=>$cateList.Minzhu.mark,'type'=>'list'])}">更多+</a>
         </div>
         <ul class="content-area">
-            {foreach $cateList.Yangguang.sublist as $v}
+            {foreach $cateList.Minzhu.sublist as $v}
             <li class="content-list" onclick="javascript:window.location.href='{:url("index/articledetail",['id'=>$v.id,'mark'=>$v.mark,'type'=>'list'])}';"> · {$v.title}<span>{$v.sendtime|getYearDay}</span> </li>
             {/foreach}
         </ul>
     </div>
 
     <!--six-->
-    <div class="content-wrap content-item fir">
+    <div class="content-wrap content-item content-wrap-last fir">
+        <div class="content-head no-bottom" style="margin-bottom:0px;">
+            <a class="head-title-item active" data-dom="liangdai"  href="{:url('index/articlelist',['mark'=>$cateList.Zhengce.mark,'type'=>'list'])}">{$cateList.Zhengce.title}</a>
+            <a class="head-title-item" data-dom="zhibu"  href="{:url('index/articlelist',['mark'=>$cateList.Xiazai.mark,'type'=>'list'])}">{$cateList.Xiazai.title}</a>
+            <a class="head-title-item" data-dom="link"  href="{:url('index/articlelist',['mark'=>$cateList.Link.mark,'type'=>'list'])}">{$cateList.Link.title}</a>
+        </div>
+        <ul class="content-area content-area-last liangdai">
+            {foreach $cateList.Zhengce.sublist as $v}
+            <li class="content-list" onclick="javascript:window.location.href='{:url("index/articledetail",['id'=>$v.id,'mark'=>$v.mark,'type'=>'list'])}';"> · {$v.title} </li>
+            {/foreach}
+        </ul>
+        <ul class="content-area content-area-last zhibu hidden">
+            {foreach $cateList.Xiazai.sublist as $v}
+            <li class="content-list" onclick="javascript:window.location.href='{:url("index/downfile",['id'=>$v.id])}';"> · {$v.title}</li>
+            {/foreach}
+        </ul>
+        <ul class="content-area content-area-last link hidden">
+            {foreach $cateList.Link.sublist as $v}
+            <li class="content-list" onclick="javascript:window.location.href='{$v.linkurl}';"> · {$v.title}</li>
+            {/foreach}
+        </ul>
+
+    </div>
+    <!--sev-->
+    <div class="content-wrap content-item content-wrap-last fir" style="width:70%;">
+        <div class="content-head" >
+            <span class="head-title-last active" data-url="{:url('index/articlelist',['mark'=>$cateList.Huodong.mark,'type'=>'list'])}" data-dom="huodong">{$cateList.Huodong.title}</span>
+            <span class="head-title-last" data-url="{:url('index/articlelist',['mark'=>$cateList.Yangguang.mark,'type'=>'list'])}" data-dom="yangguang">{$cateList.Yangguang.title}</span>
+            <a class="head-more head-more-last" href="{:url('index/articlelist',['mark'=>$cateList.Huodong.mark,'type'=>'list'])}">更多+</a>
+        </div>
+        <ul class="content-area content-area-sec huodong">
+            {foreach $cateList.Huodong.sublist as $k=>$item}
+            {if $k <= 2}
+            <a class="huo-list"  href="{:url("index/articledetail",['id'=>$item.id,'mark'=>$item.mark,'type'=>'list'])}">
+                <div class="huo-img" style="background:url(__ImagePath__{$item.img}) no-repeat center"></div>
+                <div class="huo-title">{$item.title}</div>
+            </a>
+            {if $k < 2}<div class="skip-white"></div>{/if}
+            {/if}
+            {/foreach}
+        </ul>
+        <ul class="content-area content-area-sec yangguang hidden">
+            {foreach $cateList.Yangguang.sublist as $k=>$item}
+            {if $k <= 2}
+            <a class="huo-list"  href="{:url("index/articledetail",['id'=>$item.id,'mark'=>$item.mark,'type'=>'list'])}">
+                <div class="huo-img" style="background:url(__ImagePath__{$item.img}) no-repeat center"></div>
+                <div class="huo-title">{$item.title}</div>
+            </a>
+            {if $k < 2}<div class="skip-white"></div>{/if}
+            {/if}
+            {/foreach}
+        </ul>
+    </div>
+
+    <div class="content-show">
+        {foreach $cateList.Zhibu.sublist as $k=>$item}
+        {if $k <= 7}
+        <a class="show-list" href="{:url("index/articledetail",['id'=>$item.id,'mark'=>$item.mark,'type'=>'list'])}">
+            <span class="show-img" style="background:url(__ImagePath__{$item.img}) no-repeat center;    background-size: 40px;"></span>
+            <span class="show-title">{$item.title}</span>
+        </a>
+        {if $k < 7}<div class="skip-white-show"></div>{/if}
+        {/if}
+        {/foreach}
+    </div>
+
+    <!--six-->
+    <div class="content-wrap content-item fir" style="display:none;">
         <div class="special-area">
             <div class="special-title"><span class="special-dot">·</span><a class="special-text" href="{:url('index/articlelist',['mark'=>$cateList.Xiazai.mark,'type'=>'list'])}">{$cateList.Xiazai.title}</a></div>
             <div class="special-list">
@@ -133,42 +200,7 @@ js='<script type="text/javascript" src="__StaticStyle__/js/jquery-3.2.1.min.js">
         </div>
     </div>
 
-    <!--sev-->
-    <div class="content-wrap content-item fir">
-        <div class="content-head">
-            <span class="head-title">{$cateList.Huodong.title}</span>
-            <a class="head-more" href="{:url('index/articlelist',['mark'=>$cateList.Huodong.mark,'type'=>'list'])}">更多+</a>
-        </div>
-        <ul class="content-area">
-            {foreach $cateList.Huodong.sublist as $k=>$item}
-            {if $k <= 2}
-            <a class="huo-list">
-                <div class="huo-img" style="background:url(__ImagePath__{$item.img}) no-repeat center"></div>
-                <div class="huo-title">{$item.title}</div>
-            </a>
-            {/if}
-            {/foreach}
-        </ul>
-    </div>
 
-    <!--eig-->
-    <div class="content-wrap content-item fir no-padding">
-        <div class="content-head">
-            <span class="head-title-item active" data-dom="liangdai">{$cateList.Liangdai.title}</span><span class="head-title-item" data-dom="zhibu">{$cateList.Zhibu.title}</span>
-            <a class="head-more" href="{:url('index/articlelist',['mark'=>$cateList.Zhibu.mark,'type'=>'list'])}">更多+</a>
-        </div>
-        <ul class="content-area content-area-last liangdai">
-            {foreach $cateList.Liangdai.sublist as $v}
-            <li class="content-list" onclick="javascript:window.location.href='{:url("index/articledetail",['id'=>$v.id,'mark'=>$v.mark,'type'=>'list'])}';"> · {$v.title}<span>{$v.sendtime|getYearDay}</span> </li>
-            {/foreach}
-        </ul>
-        <ul class="content-area content-area-last zhibu hidden">
-            {foreach $cateList.Zhibu.sublist as $v}
-            <li class="content-list" onclick="javascript:window.location.href='{:url("index/articledetail",['id'=>$v.id,'mark'=>$v.mark,'type'=>'list'])}';"> · {$v.title}<span>{$v.sendtime|getYearDay}</span> </li>
-            {/foreach}
-        </ul>
-
-    </div>
 
 
 
@@ -185,7 +217,7 @@ var mySwiper = new Swiper(".swiper-container", {
     currentClass: "current",
 });
 $(function(){
-    $(".head-title-item").click(function(){
+    $(".head-title-item").hover(function(){
         if($(this).hasClass("active")) return false;
         var domC = $(this).attr("data-dom");
         $(".head-title-item.active").removeClass("active");
@@ -193,6 +225,16 @@ $(function(){
         $(".content-area-last").addClass("hidden");
         $("."+domC).removeClass("hidden");
 
+    })
+
+    $(".head-title-last").click(function(){
+        if($(this).hasClass("active")) return false;
+        var domC = $(this).attr("data-dom");
+        $(".head-title-last.active").removeClass("active");
+        $(this).addClass("active");
+        $(".content-area-sec").addClass("hidden");
+        $("."+domC).removeClass("hidden");
+        $(".head-more-last").attr("href",$(this).attr("data-url"));
     })
 })
 </script>
