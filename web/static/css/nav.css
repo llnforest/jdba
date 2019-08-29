@@ -1,7 +1,10 @@
 .index-nav{width: 100%;height: 45px;background:white;}
 /*.index-nav-frame{width: 1200px;margin: 0 auto;}*/
 .index-nav-frame-line{color: #333333;background: white;float: left;position: relative;display: block;outline: none;cursor: pointer;padding:0 20px;line-height: 45px;text-align: center;font-weight: 700;}
-.index-nav-frame-line.active{color:#d9271b;}
+.index-nav-frame-line.active {color:#d9271b;}
+.index-nav-frame-line.active .parent-nav{color:#d9271b;}
+
+.parent-nav{width:100%;height:100%;display:block;}
 
 .index-nav-frame-line-center{opacity: 0;height: 0;position: absolute;overflow: hidden;width: 100%;transition: all 0.5s;-webkit-transition: all 0.5s;-moz-transition: all 0.5s;/* Firefox 4 */-o-transition: all 0.5s; /* Opera */    z-index: 9;left:0;border-top:3px solid #d9271b}
 .index-nav-frame-line-li{overflow: hidden;height: 45px;width: 100%;font-weight: 500;text-align: left;padding-left:20px;background:  #fff;color:#333;border-bottom: 1px dashed #a2a2a2;display:block;}
